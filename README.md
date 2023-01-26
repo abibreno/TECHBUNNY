@@ -37,7 +37,7 @@ Each product has its details page, from where the user can find all the details 
 
 From this page each user will be able to track their product through their id.
 
-<img height="600" src="./img/followup.png">
+<img height="500" src="./img/followup.png">
 
 ## Log in:
 
