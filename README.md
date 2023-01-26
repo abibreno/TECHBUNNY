@@ -3,6 +3,9 @@ E-commerce de tecnología
 # About the project
 TECHBUNNY is a technology e-commerce that has +800 products in its catalogue, the possibility of creating an account and logging in to take advantage of all the tools we offer, a built-in payment gateway and a Dashboard with real statistics so that the administrators of the store can manage everything they need.
 
+# Project link:
+https://pf-techbunny-lake.vercel.app/
+
 ## Landing:
 
 This is the first page of the e-commerce, in it you can find not only information about it but also about the people who are part of this project.
