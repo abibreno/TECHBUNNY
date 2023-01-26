@@ -1,0 +1,238 @@
+.backgroundForm{
+    padding: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.formStyle{
+    background-color: white;
+    padding: 5%;
+    width: 46%;
+    border-radius: 20px;
+}
+
+.formTitle h1{
+    font-family: 'Poppins', sans-serif;
+    width: 600;
+    font-size: 22px;
+    line-height: 20px;
+    color: black;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.formOptions h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.formOptions h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #cccccc;
+    text-align: left;
+    margin-top: -25px;
+    margin-bottom: -8px;
+}
+
+.formOptions input{
+    background-color: #F6F5FA;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+}
+
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #8f8f8f;
+    font-style: normal;
+}
+
+.btnDiv{
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+.btnFollowUp{
+    width: 240px;
+    height: 40px;
+    background-color:#20232A;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.btnFollowUp:hover{
+    cursor: pointer;
+    background-color: #d7f136;
+    color: #20232A;
+    transition: 0.5s;
+}
+
+@media (max-width: 450px){
+    .formStyle{
+        width: 90%;
+        padding: 30px;
+    }
+    .formTitle h1{
+        font-size: 15px;
+    }
+    .formOptions h2{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .formOptions h3{
+        font-size: 12px;
+    }
+    .btnDiv{
+        justify-content: center;
+    }
+    ::placeholder{
+        font-size: 8px;
+    }
+    .formOptions input{
+        height: 10px;
+    }
+}
+
+/* DARK MODE */
+
+.dmbackgroundForm{
+    padding: 7%;
+    display: flex;
+    justify-content: center;
+    background-color: #20232A;
+}
+
+.dmformStyle{
+    background-color: #2B3036;
+    padding: 5%;
+    width: 46%;
+    border-radius: 20px;
+}
+
+.dmformTitle h1{
+    font-family: 'Poppins', sans-serif;
+    width: 600;
+    font-size: 22px;
+    line-height: 20px;
+    color: white;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.dmformOptions h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 40px;
+    color: white;
+}
+
+.dmformOptions h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #cccccc;
+    text-align: left;
+    margin-top: -25px;
+    margin-bottom: -8px;
+}
+
+.dmformOptions input{
+    background-color: #1b1d23;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+}
+
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    color: #8f8f8f;
+    font-style: normal;
+}
+
+.dmbtnDiv{
+    margin-top: 30px;
+    display: flex;
+    justify-content: right;
+}
+
+.dmbtnFollowUp{
+    width: 240px;
+    height: 40px;
+    background-color: #d7f136;
+    color: #1b1d23;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.dmbtnFollowUp:hover{
+    background-color: black;
+    color: #d7f136;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.dmformOptions input:focus{
+    color: white;
+}
+
+
+@media (max-width: 450px){
+    .dmformStyle{
+        width: 80%;
+        padding: 30px;
+    }
+    .dmformTitle h1{
+        font-size: 15px;
+    }
+    .dmformOptions h2{
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .dmformOptions h3{
+        font-size: 12px;
+    }
+    .dmbtnDiv{
+        justify-content: center;
+    }
+    ::placeholder{
+        font-size: 8px;
+    }
+    .dmformOptions input{
+        height: 10px;
+    }
+}
+
+

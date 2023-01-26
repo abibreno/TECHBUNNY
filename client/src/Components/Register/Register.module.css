@@ -1,0 +1,239 @@
+.loginSection {
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  font-family: "Poppins";
+}
+
+.heroLogin {
+  height: 500px;
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  background-image: url(../../images/register.png);
+  width: 676.45px;
+  height: 490px;
+}
+
+.img {
+  width: 55%;
+  height: 55%;
+}
+
+.loginCard {
+  background-color: white;
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginCard h4 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+  padding-top: 20px;
+}
+
+.loginCard input {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  height: 40px;
+  text-indent: 8px;
+  border: none;
+  background: #f6f5fa;
+}
+
+.m2 {
+  font-size: 12px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.loginCard button {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 12px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.loginCard button {
+  cursor: pointer;
+}
+
+.b1 {
+  background-color: #20232a;
+  color: #ffffff;
+  border: none;
+  transition: 0.5s;
+}
+
+.b1:hover {
+  background-color: #d7f136;
+  color: #20232a;
+  border: none;
+  transition: 0.5s;
+}
+
+.b2 {
+  background-color: #f6f5fa;
+  color: #20232a;
+  border: none;
+}
+
+.login {
+  transition: 0.5s;
+}
+
+.login:hover {
+  color: #9e9e9e;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
+
+.hidden {
+  color: white;
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+/* DARK MODE */
+
+.dmloginPage {
+  background-color: #20232a;
+}
+
+.dmloginSection {
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  font-family: "Poppins";
+  background-color: #20232a;
+}
+
+.dmheroLogin {
+  height: 500px;
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dmhero {
+  background-image: url(../../images/register-dm.png);
+  width: 676.45px;
+  height: 490px;
+}
+
+.dmloginCard {
+  background-color: #2b3036;
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dmloginCard h4 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+  padding-top: 20px;
+  color: #f6f5fa;
+}
+
+.dmloginCard input {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  height: 40px;
+  text-indent: 8px;
+  border: none;
+  background: #22262a;
+  color: white;
+}
+
+.dmloginCard input:focus {
+  color: white;
+}
+
+.dmm2 {
+  font-size: 12px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  color: #f6f5fa;
+}
+
+.dmloginCard button {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 12px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.dmloginCard button {
+  cursor: pointer;
+}
+
+.dmb1 {
+  background-color: #d7f136;
+  color: #20232a;
+  border: none;
+  transition: 0.5s;
+}
+
+.dmb1:hover {
+  background-color: #20232a;
+  color: #f6f5fa;
+  border: none;
+  transition: 0.5s;
+}
+
+.dmb2 {
+  background-color: transparent;
+  color: #f6f5fa;
+  border: 1px solid #f6f5fa;
+}
+
+.dmlogin {
+  transition: 0.5s;
+}
+
+.dmlogin:hover {
+  transition: 0.5s;
+  color: #d7f136;
+  cursor: pointer;
+}

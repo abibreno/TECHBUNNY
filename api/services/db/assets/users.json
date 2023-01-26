@@ -1,0 +1,101 @@
+[
+  {
+    "username": "anonimo",
+    "name": "anonimo",
+    "surname": "anonimo",
+    "password": "anonimo",
+    "email": "a@a.com",
+    "billingAddress": "anonimo",
+    "zipCode": 0,
+    "isActive": true
+  },
+  {
+    "username": "beto",
+    "name": "Beto",
+    "role": "3",
+    "surname": "Martinez",
+    "password": "$2a$10$FgEXIFpYBwVV37KfTE5wNuq2.y/RmNMy/DfHEfOnGiQQtnTPBv4Ee",
+    "email": "a@gmail.com",
+    "billingAddress": "Rodriguez Peña 1234",
+    "zipCode": 7600,
+    "isActive": true
+  },
+  {
+    "username": "santi",
+    "name": "Santi",
+    "role": "3",
+    "surname": "Larrique",
+    "password": "$2a$10$FgEXIFpYBwVV37KfTE5wNuq2.y/RmNMy/DfHEfOnGiQQtnTPBv4Ee",
+    "email": "b@gmail.com",
+    "billingAddress": "Colon 1234",
+    "zipCode": 11200,
+    "isActive": true
+  },
+  {
+    "username": "emi",
+    "name": "Emiliano",
+    "role": "3",
+    "surname": "Hernandez",
+    "password": "$2a$10$FgEXIFpYBwVV37KfTE5wNuq2.y/RmNMy/DfHEfOnGiQQtnTPBv4Ee",
+    "email": "c@gmail.com",
+    "billingAddress": "Jose Marti 1234",
+    "zipCode": 1722,
+    "isActive": true
+  },
+  {
+    "username": "gerlini",
+    "email": "d@gmail.com",
+    "name": "German",
+    "surname": "Fernandez",
+    "password": "$2a$10$FgEXIFpYBwVV37KfTE5wNuq2.y/RmNMy/DfHEfOnGiQQtnTPBv4Ee",
+    "role": "3",
+    "zipCode": 1050,
+    "billingAddress": "San Martin 1234",
+    "isActive": true
+  },
+  {
+    "username": "maty",
+    "name": "Matias",
+    "password": "$2a$10$FgEXIFpYBwVV37KfTE5wNuq2.y/RmNMy/DfHEfOnGiQQtnTPBv4Ee",
+    "surname": "Gimenez",
+    "role": "3",
+    "email": "e@gmail.com",
+    "billingAddress": "Rivadavia 1234",
+    "zipCode": "122",
+    "profilePicture": "www.google.com",
+    "isActive": true
+  },
+  {
+    "username": "eze",
+    "name": "Ezequiel",
+    "surname": "Gomez",
+    "role": "3",
+    "password": "$2a$10$FgEXIFpYBwVV37KfTE5wNuq2.y/RmNMy/DfHEfOnGiQQtnTPBv4Ee",
+    "email": "f@gmail.com",
+    "billingAddress": "Roca 1234",
+    "zipCode": 2000,
+    "isActive": true
+  },
+  {
+    "username": "abi",
+    "name": "Abigail",
+    "surname": "Breno",
+    "role": "3",
+    "password": "$2a$10$FgEXIFpYBwVV37KfTE5wNuq2.y/RmNMy/DfHEfOnGiQQtnTPBv4Ee",
+    "email": "g@gmail.com",
+    "billingAddress": "Garcia Lorca 1234",
+    "zipCode": 2200,
+    "isActive": true
+  },
+  {
+    "username": "ali",
+    "name": "Alissa",
+    "surname": "Gamarra",
+    "role": "3",
+    "password": "$2a$10$FgEXIFpYBwVV37KfTE5wNuq2.y/RmNMy/DfHEfOnGiQQtnTPBv4Ee",
+    "email": "h@gmail.com",
+    "billingAddress": "Bolivar 1234",
+    "zipCode": 170,
+    "isActive": true
+  }
+]

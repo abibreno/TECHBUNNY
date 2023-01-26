@@ -1,0 +1,104 @@
+.feedbackPage {
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.heroFeedback img {
+  height: 400px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+.message {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+}
+
+.mainButton {
+  margin-top: -15px;
+  margin-bottom: 60px;
+  width: 360px;
+  height: 45px;
+  background-color: #20232A;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.mainButton:hover {
+  cursor: pointer;
+}
+
+/* DARK MODE */
+
+.dmfeedbackPage {
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  background-color: #20232A;
+}
+
+.dmheroFeedback img {
+  height: 400px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+
+.dmmessage {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 45px;
+  color: white;
+}
+
+.dmmainButton {
+  margin-top: -15px;
+  margin-bottom: 60px;
+  width: 360px;
+  height: 45px;
+  background-color: #d7f136;
+  color: black;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.dmmainButton:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 400px){
+  .heroFeedback img {
+    height: 250px;
+    width: 250px;
+  }
+  .dmheroFeedback img {
+    height: 250px;
+    width: 250px;
+  }
+}

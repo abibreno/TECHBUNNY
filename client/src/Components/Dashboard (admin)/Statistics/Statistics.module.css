@@ -1,0 +1,32 @@
+.statSection{
+  max-width: 1500px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.statisticsContainer {
+  z-index: -1;
+}
+
+.stat{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.toolBarComponents {
+  z-index: 1;
+}
+
+.loadingStat img {
+  width: 469px;
+  height: 458px;
+  transform: translateY(130px);
+}

@@ -1,0 +1,138 @@
+.cartSection{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.cartTotal{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cartTotal span{
+    /* font-weight: 600; */
+    font-size: 20px;
+}
+
+.mainButton{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 360px;
+    height: 45px;
+    background-color: #20232A;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.mainButton:hover{
+    cursor: pointer;
+    background-color: #d7f136;
+    color: #20232A;
+    transition: 0.5s;
+}
+
+.none{
+    display: none;
+}
+
+.heroCart{
+    height: 338px;
+    width: 450px;
+    background-image: url(../../images/cart.png);
+}
+
+.message{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* DARK MODE */
+.dmcartPage{
+    background-color: #20232A;
+}
+
+.dmcartSection{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #20232A;
+}
+
+.dmcartTotal{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dmmainButton{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 360px;
+    height: 45px;
+    background-color: #d7f136;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: solid 1px #000000;
+    transition: 0.5s;
+}
+
+.dmmainButton:hover{
+    background-color: #20232A;
+    color: #d7f136;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.dmnone{
+    display: none;
+}
+
+.dmheroCart{
+    height: 338px;
+    width: 450px;
+    background-image: url(../../images/cart-dm.png);
+}
+
+.dmmessage{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+}
+
+.img {
+    width: 60%;
+    height: 60%;
+   
+}
